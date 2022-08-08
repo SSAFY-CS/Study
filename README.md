@@ -34,20 +34,20 @@
 
 ## 📌 &nbsp;&nbsp;Context
 - **Operating System** 
-  [<u>✔️</u>](https://github.com/nedleeds/Computer-Science-study/tree/main/OperatingSystem)
+  [<u>🔗</u>](https://github.com/nedleeds/Computer-Science-study/tree/main/OperatingSystem)
   <br> - [CPU 스케쥴링](OperatingSystem/01_cpu_scheduleing.md)
 
 - **Design Pattern** 
-  [<u>✔️</u>](https://github.com/nedleeds/Computer-Science-study/tree/main/DesignPattern)
+  [<u>🔗</u>](https://github.com/nedleeds/Computer-Science-study/tree/main/DesignPattern)
   <br> - [디자인패턴 개요 및 객체지향](DesignPattern/01_overview.md)
 
 - Network
-  [<u>✔️</u>](https://github.com/nedleeds/Computer-Science-study/tree/main/Network)
+  [<u>🔗</u>](https://github.com/nedleeds/Computer-Science-study/tree/main/Network)
   <br>- [OSI 계층](Network/01_osi.md)
   <br>- [TCP/IP](Network/02_tcp_ip.md)
 
 - Database 
-  [<u>✔️</u>](https://github.com/nedleeds/Computer-Science-study/tree/main/Database)
+  [<u>🔗</u>](https://github.com/nedleeds/Computer-Science-study/tree/main/Database)
   <br>- [Key](Database/01_key.md)
 
 <br>
