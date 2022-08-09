@@ -7,6 +7,7 @@
 📕&nbsp;<a href='https://github.com/nedleeds'>**동형**</a>
 </br></br>
 
+
 ## 📌 &nbsp;&nbsp;Rule
 ### 1. 발표 **준비**
     1) 주제별 관심 키워드 내용 정리
