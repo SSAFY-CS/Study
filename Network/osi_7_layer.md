@@ -16,9 +16,9 @@
 
 ## OSI 7계층 동작원리
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/974b5a56-882c-4623-80e4-b5d018cdcd97/Untitled.png)
+![image](https://user-images.githubusercontent.com/65318329/184303599-4401a8a8-ba3f-478f-815b-ffe7c78d776b.png)
+![image](https://user-images.githubusercontent.com/65318329/184303646-ea6ec5f3-b391-497e-93bd-9e1b85c8e758.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a7374fb4-aebd-4b79-b959-4eb01fda543b/Untitled.png)
 
 <aside>
 💡 동작 원리
@@ -84,3 +84,6 @@
 - 케이블, 리피터, 허브가 존재한다.
 
 ## **현재는 OSI 7계층이 아닌 TCP/IP 층을 사용하고 있다.**
+![image](https://user-images.githubusercontent.com/65318329/184303721-c85cb932-bc9a-4d18-adb8-10af6f90df6f.png)
+
+
