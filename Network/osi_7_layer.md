@@ -5,7 +5,8 @@
 - 개방형 시스템의 상호 연결 모델의 표준이다.
 - 실제 인터넷에서 사용되는 `TCP/IP`는 `OSI 참조모델`을 기반으로 상업적이고 실무적으로 이용될 수 있게 단순화한 것이다.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/85427b00-dc74-4ead-954e-8127883b29bf/Untitled.png)
+![image](https://user-images.githubusercontent.com/65318329/184303518-736966f8-f012-4d47-82ee-66486cba94de.png)
+
 
 ## 배경
 
