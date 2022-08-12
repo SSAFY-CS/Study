@@ -42,7 +42,7 @@
   [<u>🔗</u>](https://github.com/nedleeds/Computer-Science-study/tree/main/DesignPattern)
   <br> - 
   <br> - [Template Method Pattern](DesignPattern/02_template_method.md)
-  <br> - [Startegy Pattern](DesignPattern/03_strategy.md)
+  <br> - [Strategy Pattern](DesignPattern/03_strategy.md)
 
 - Network
   [<u>🔗</u>](https://github.com/nedleeds/Computer-Science-study/tree/main/Network)
