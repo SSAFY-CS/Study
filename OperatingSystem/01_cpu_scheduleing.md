@@ -54,8 +54,8 @@
 - 새로운 작업이 들어오면 완료까지 남은 시간이 가장 적은 작업을 수행
 - 반환시간은 Great, 반면 반응시간은....
 
-<img src="./images/STCF.png" height=40% width=40%></img>
-<img src="./images/STCF_response.png" height=40% width=40%></img>
+<img src="./images/images_01/STCF.png" height=40% width=40%></img>
+<img src="./images/images_01/STCF_response.png" height=40% width=40%></img>
 
 ### Round Robin(RR)
 - Time Slice 만큼의 시간동안 작업을 수행하고 큐에 있는 다음 작업을 또 Time Slice 만큼 수행(모든 작업이 끝날때 까지)
@@ -64,7 +64,7 @@
 - Time Slice가 크면 FIFO와 차이가 없어지고, 작으면 Context Switching이 잦아져 오버헤드 증가
 - I/O 작업(process가 CPU를 사용하지 않을 때) 유연하게 대처 가능
 
-<img src="./images/images_01/images_01/SJF_response.png" height=40% width=40%></img>
+<img src="./images/images_01/STCF_response.png" height=40% width=40%></img>
 <img src="./images/images_01/RR_response.png" height=40% width=40%></img>
 <img src="./images/images_01/IO_STCF.png" height=40% width=40%></img>
 <img src="./images/images_01/IO_RR.png" height=40% width=40%></img>
