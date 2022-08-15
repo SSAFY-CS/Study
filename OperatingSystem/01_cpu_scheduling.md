@@ -35,9 +35,8 @@
 - ~~1. 모든 작업은 같은 수행 시간(RUN TIME)을 갖고 있다~~
 - convoy effect 발생
 
-<img src="./images/images_01/FIFO.png" height=40% width=40%></img>
-<img src="./images/images_01/FIFO_convoy.png" height=40% width=40%></img>
-
+<img src="https://user-images.githubusercontent.com/48194000/184644347-9b24a60e-2764-4bed-ab01-a125bb077d1e.png" height=40% width=40%></img>
+<img src="https://user-images.githubusercontent.com/48194000/184644194-f5299a87-eb44-4da4-8731-d4f461871fe5.png" height=40% width=40%></img>
 
 ### SJF(Shortest Job First)
 - 작업마다 수행시간이 다름
@@ -46,8 +45,8 @@
 - ~~2. 모든 작업은 같은 시간에 도착한다~~
 - 똑같이 convoy effect 발생
 
-<img src="./images/images_01/SJF.png" height=40% width=40%></img>
-<img src="./images/images_01/SJF_convoy.png" height=40% width=40%></img>
+<img src="https://user-images.githubusercontent.com/48194000/184644489-d8c11bf0-3eb4-457d-8a02-436fd67a0ca2.png" height=40% width=40%></img>
+<img src="https://user-images.githubusercontent.com/48194000/184644483-6647f40c-ab83-4163-b7ad-237e176965c5.png" height=40% width=40%></img>
 
 ### Shortest Time-to-Completion First(STCF)
 - SJF의 선점 버전
