@@ -197,7 +197,27 @@ e,d,c,b,a
 
 <br>
 
-## 7. 참조
+## 7. Quiz
+1) 런타임 때 로직을 변경해야 하는 경우 - `_(A)_` 패턴<br>
+    > <details><summary>답 : </summary>전략 패턴은 컨텍스트 클래스가 전략(Strategy)을 속성(필드, 인스턴스 변수)으로 가지고 있다보니, setter 메서드를 통해 런타임 도중에 전략(Strategy)을 변경할 수 있다</details>
+
+<br>
+
+2) 템플릿 메서드 패턴은 로직을 변경하려면 클래스로부터 `_(B)_`를 새로 생성해야 한다. 따라서 런타임 도중에 로직을 변경할 수가 없다.
+    > <details><summary>답 :</summary>인스턴스</details>
+<br>
+
+3) 다양한 컨텍스트 클래스에서 특정 알고리즘을 공유하고 싶을 때 - `_(C)_` 패턴<br> 
+   > <details><summary>답 : </summary>전략</details>
+<br>
+
+1) 템플릿 메서드 패턴은 로직의 순서가 `_(D)_`되어 있어서, 로직 순서와 일치하는 컨텍스트 클래스에서 밖에 사용을 못한다
+   > <details><summary>답 : </summary>고정</details>
+<br>
+
+<br>
+
+## 8. 참조
 https://refactoring.guru/design-patterns/strategy 
 
 
