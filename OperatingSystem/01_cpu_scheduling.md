@@ -35,8 +35,9 @@
 - ~~1. 모든 작업은 같은 수행 시간(RUN TIME)을 갖고 있다~~
 - convoy effect 발생
 
-<img src="https://user-images.githubusercontent.com/48194000/184644347-9b24a60e-2764-4bed-ab01-a125bb077d1e.png" height=40% width=40%></img>
-<img src="https://user-images.githubusercontent.com/48194000/184644194-f5299a87-eb44-4da4-8731-d4f461871fe5.png" height=40% width=40%></img>
+<img src="https://user-images.githubusercontent.com/48194000/184645356-535c0783-93ed-427b-a994-435ebbf4a565.png" height=40% width=40%></img>
+<img src="https://user-images.githubusercontent.com/48194000/184645437-a15b378d-accb-4f0b-8e45-0ffdea0ac38e.png" height=40% width=40%></img>
+
 
 ### SJF(Shortest Job First)
 - 작업마다 수행시간이 다름
@@ -45,16 +46,20 @@
 - ~~2. 모든 작업은 같은 시간에 도착한다~~
 - 똑같이 convoy effect 발생
 
-<img src="https://user-images.githubusercontent.com/48194000/184644489-d8c11bf0-3eb4-457d-8a02-436fd67a0ca2.png" height=40% width=40%></img>
-<img src="https://user-images.githubusercontent.com/48194000/184644483-6647f40c-ab83-4163-b7ad-237e176965c5.png" height=40% width=40%></img>
+<!-- <img src="./images/images_01/SJF.png" height=40% width=40%></img> -->
+<!-- <img src="./images/images_01/SJF_convoy.png" height=40% width=40%></img> -->
+<img src="https://user-images.githubusercontent.com/48194000/184645368-7a70cf4d-1198-4616-aba2-f49d49b8941d.png" height=40% width=40%></img>
+<img src="https://user-images.githubusercontent.com/48194000/184645364-f369c519-48ff-458a-ae03-fcabd77b123a.png" height=40% width=40%></img>
 
 ### Shortest Time-to-Completion First(STCF)
 - SJF의 선점 버전
 - 새로운 작업이 들어오면 완료까지 남은 시간이 가장 적은 작업을 수행
 - 반환시간은 Great, 반면 반응시간은....
 
-<img src="./images/images_01/STCF.png" height=40% width=40%></img>
-<img src="./images/images_01/STCF_response.png" height=40% width=40%></img>
+<!-- <img src="./images/images_01/STCF.png" height=40% width=40%></img>
+<img src="./images/images_01/STCF_response.png" height=40% width=40%></img> -->
+<img src="https://user-images.githubusercontent.com/48194000/184645372-2fd40a09-0607-47b3-ab9b-311927e2083d.png" height=40% width=40%></img>
+<img src="https://user-images.githubusercontent.com/48194000/184645369-fa2e0949-f597-4158-8416-9d1006eee334.png" height=40% width=40%></img>
 
 ### Round Robin(RR)
 - Time Slice 만큼의 시간동안 작업을 수행하고 큐에 있는 다음 작업을 또 Time Slice 만큼 수행(모든 작업이 끝날때 까지)
@@ -63,7 +68,7 @@
 - Time Slice가 크면 FIFO와 차이가 없어지고, 작으면 Context Switching이 잦아져 오버헤드 증가
 - I/O 작업(process가 CPU를 사용하지 않을 때) 유연하게 대처 가능
 
-<img src="./images/images_01/STCF_response.png" height=40% width=40%></img>
-<img src="./images/images_01/RR_response.png" height=40% width=40%></img>
-<img src="./images/images_01/IO_STCF.png" height=40% width=40%></img>
-<img src="./images/images_01/IO_RR.png" height=40% width=40%></img>
+<img src="https://user-images.githubusercontent.com/48194000/184645369-fa2e0949-f597-4158-8416-9d1006eee334.png" height=40% width=40%></img>
+<img src="https://user-images.githubusercontent.com/48194000/184645363-e8c3a309-8377-4302-99e2-e8548cbfa0e2.png" height=40% width=40%></img>
+<img src="https://user-images.githubusercontent.com/48194000/184645360-c5c2a132-3310-411d-8849-d522dc62e551.png" height=40% width=40%></img>
+<img src="https://user-images.githubusercontent.com/48194000/184645358-847fe84d-b7ee-453c-b3ad-03171d85fa03.png" height=40% width=40%></img>
