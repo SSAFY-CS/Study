@@ -36,22 +36,22 @@
 ## 📌 &nbsp;&nbsp;Context
 - **Operating System** 
   [<u>🔗</u>](https://github.com/nedleeds/Computer-Science-study/tree/main/OperatingSystem)
-  <br> - 
+  <br> 1. [CPU Scheduling](OperatingSystem/01_cpu_scheduling.md)
 
 - **Design Pattern** 
   [<u>🔗</u>](https://github.com/nedleeds/Computer-Science-study/tree/main/DesignPattern)
-  <br> - 
-  <br> - [Template Method Pattern](DesignPattern/02_template_method.md)
-  <br> - [Strategy Pattern](DesignPattern/03_strategy.md)
+  <br> 1. 
+  <br> 2. [Template Method Pattern](DesignPattern/02_template_method.md)
+  <br> 3. [Strategy Pattern](DesignPattern/03_strategy.md)
 
 - Network
   [<u>🔗</u>](https://github.com/nedleeds/Computer-Science-study/tree/main/Network)
-  <br> -
-  <br> -
+  <br> 1. [OSI 7 Layers](Network/01_osi_7_layer.md)
+  <br> 2. [TCP/IP](Network/02_tcp_ip.md)
 
 - Database 
   [<u>🔗</u>](https://github.com/nedleeds/Computer-Science-study/tree/main/Database)
-  <br> - [Key](Database/01_key.md)
+  <br> 1. [Key](Database/01_key.md)
 
 <br>
 
