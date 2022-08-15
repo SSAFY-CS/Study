@@ -10,7 +10,7 @@
 
 ## 2. 실행 과정
 <div align="center">
-<img width="550" alt="strategy_pattern_img2" src="https://user-images.githubusercontent.com/48194000/184570213-d1dd9d11-59ab-489e-bfaf-718f728b0802.png"></div>
+<img width="90%" alt="strategy_pattern_img2" src="https://user-images.githubusercontent.com/48194000/184570213-d1dd9d11-59ab-489e-bfaf-718f728b0802.png"></div>
 
 1. `Context` 클래스
    - `Context` 클래스는 `하나의 전략 클래스를 참조`하고, 해당 전략 인터페이스를 통해서 전략 객체와 통신을 한다<br><br>
@@ -38,7 +38,7 @@
 ### 2) 문제 발견
 
 <p align="center">
-<img width="550" alt="startey_pattern_img1" src="https://user-images.githubusercontent.com/48194000/184569495-65baeee0-a533-4cd5-b489-b4f977755614.png">
+<img width="90%" alt="startey_pattern_img1" src="https://user-images.githubusercontent.com/48194000/184569495-65baeee0-a533-4cd5-b489-b4f977755614.png">
 </p>
 
 문제는 지금부터였다. 초창기 모델이 단지 자동차 운전경로에 초첨을 맞춰 진행되었기 때문에 옵션을 추가하면서 `하나의 클래스의 규모가 커졌고`, `유지 보수를 하기 어려워졌다`. 또한 단순한 버그 수정이든 거리 점수의 약간의 조정이든 알고리즘 중 하나를 변경하면 전체 클래스에 영향을 미치므로 이미 작동하는 코드에서 `오류`가 발생할 가능성이 `높아졌다`. 어떻게 해야할까?
@@ -49,7 +49,7 @@
 `전략 패턴`은 다양한 방식으로 `특정 작업을 수행하는 클래스`를 선택하고 이러한 모든 알고리즘을 전략이라는 `별도의 클래스로 추출`할 것을 제안한다.
 
 <div align="center">
-<img width="550" alt="strategy_pattern_img3" src="https://user-images.githubusercontent.com/48194000/184572203-101e43ea-5151-4a60-86d9-6ac550302acb.png">
+<img width="90%" alt="strategy_pattern_img3" src="https://user-images.githubusercontent.com/48194000/184572203-101e43ea-5151-4a60-86d9-6ac550302acb.png">
 </div>
 
 - `Context` class - `Navigator`<br>

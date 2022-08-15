@@ -30,7 +30,7 @@
 <br>
 
 <p align="center">
-<img width="550" alt="template_method_img1" src="https://user-images.githubusercontent.com/48194000/184536152-88fc6c8e-b933-4c3a-99a1-f3b488e556c0.png" >
+<img width="90%" alt="template_method_img1" src="https://user-images.githubusercontent.com/48194000/184536152-88fc6c8e-b933-4c3a-99a1-f3b488e556c0.png" >
 </p>
 
 
@@ -51,7 +51,7 @@
 <br>
 
 <p align="center">
-<img width="550" alt="template_method_img2" src="https://user-images.githubusercontent.com/48194000/184537702-e857ca58-bbca-445e-93be-ee548a0cbf82.png"></p>
+<img width="90%" alt="template_method_img2" src="https://user-images.githubusercontent.com/48194000/184537702-e857ca58-bbca-445e-93be-ee548a0cbf82.png"></p>
 
 <br>
 
