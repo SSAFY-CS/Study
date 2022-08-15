@@ -1,10 +1,21 @@
 # 👨🏻‍💻 CS 스터디
 
-## 👤 &nbsp;&nbsp;Paricipants
-📙&nbsp;<a href='https://github.com/Ga-ok'>**가옥**</a>&nbsp;
-📘&nbsp;<a href='https://github.com/khlee9606'>**경훈**</a>&nbsp;
-📗&nbsp;<a href='https://github.com/jinyt970'>**윤태**</a>&nbsp;
-📕&nbsp;<a href='https://github.com/nedleeds'>**동형**</a>
+## 👤 &nbsp;&nbsp;Contributors
+
+<div align="left">
+<a href ='https://github.com/Ga-ok'>
+<img src="https://img.shields.io/badge/가옥-🔗-orange">
+</a>
+<a href='https://github.com/khlee9606'>
+<img src="https://img.shields.io/badge/경훈-🔗-blue">
+</a>
+<a href='https://github.com/jinyt970'>
+<img src="https://img.shields.io/badge/윤태-🔗-yellow">
+</a>
+<a href='https://github.com/nedleeds'>
+<img src="https://img.shields.io/badge/동형-🔗-green">
+</a>
+</div>
 </br></br>
 
 
