@@ -48,7 +48,7 @@
 - **Operating System** 
   [<u>🔗</u>](https://github.com/nedleeds/Computer-Science-study/tree/main/OperatingSystem)
   <br> 1. [CPU Scheduling](OperatingSystem/01_cpu_scheduling.md)
-  <br> 2. 
+  <br> 2. [프로세스_스레드](OperatingSystem/02_프로세스_스레드.md)
   <br> 3.
 
 - **Design Pattern** 
