@@ -48,7 +48,7 @@
 - **Operating System** 
   [<u>🔗</u>](https://github.com/nedleeds/Computer-Science-study/tree/main/OperatingSystem)
   <br> 1. [CPU Scheduling](OperatingSystem/01_cpu_scheduling.md)
-  <br> 2. 
+  <br> 2. [프로세스_스레드](OperatingSystem/02_프로세스_스레드.md)
   <br> 3.
 
 - **Design Pattern** 
@@ -62,6 +62,7 @@
   <br> 1. [OSI 7 Layers](Network/01_osi_7_layer.md)
   <br> 2. [TCP/IP](Network/02_tcp_ip.md)
   <br> 3. [URL Network](Network/03_URL_network.md)
+  <br> 4. [TCP/UDP](Network/04_TCP_UDP.md)
 
 - Database 
   [<u>🔗</u>](https://github.com/nedleeds/Computer-Science-study/tree/main/Database)
