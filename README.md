@@ -16,7 +16,7 @@
 <img src="https://img.shields.io/badge/동형-🔗-green">
 </a>
 </div>
-</br></br>
+</br>
 
 
 ## 📌 &nbsp;&nbsp;Rule
@@ -48,10 +48,12 @@
 - **Operating System** 
   [<u>🔗</u>](https://github.com/nedleeds/Computer-Science-study/tree/main/OperatingSystem)
   <br> 1. [CPU Scheduling](OperatingSystem/01_cpu_scheduling.md)
+  <br> 2. 
+  <br> 3.
 
 - **Design Pattern** 
   [<u>🔗</u>](https://github.com/nedleeds/Computer-Science-study/tree/main/DesignPattern)
-  <br> 1. 
+  <br> 1. [Overview](DesignPattern/01_overview.md)
   <br> 2. [Template Method Pattern](DesignPattern/02_template_method.md)
   <br> 3. [Strategy Pattern](DesignPattern/03_strategy.md)
 
@@ -59,10 +61,13 @@
   [<u>🔗</u>](https://github.com/nedleeds/Computer-Science-study/tree/main/Network)
   <br> 1. [OSI 7 Layers](Network/01_osi_7_layer.md)
   <br> 2. [TCP/IP](Network/02_tcp_ip.md)
+  <br> 3. [URL Network](Network/03_URL_network.md)
 
 - Database 
   [<u>🔗</u>](https://github.com/nedleeds/Computer-Science-study/tree/main/Database)
   <br> 1. [Key](Database/01_key.md)
+  <br> 2. 
+  <br> 3. 
 
 <br>
 
