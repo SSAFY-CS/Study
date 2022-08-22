@@ -1,8 +1,8 @@
 ## Question
 Q1. `TCP` 가 뭔가요?<br>
 Q2. `IP` 는 뭐에요?<br>
-Q3. `UDT` 가 뭐에요?<br>
-Q4. `TCP` 와 `UDT` 의 차이가 뭔가요?<br>
+Q3. `UDP` 가 뭐에요?<br>
+Q4. `TCP` 와 `UDP` 의 차이가 뭔가요?<br>
 
 
 <br>
@@ -61,8 +61,8 @@ Q4. `TCP` 와 `UDT` 의 차이가 뭔가요?<br>
   전송된 데이터 양은 얼마이며, 도착한 데이터는 손상되거나 변형된 곳이 없는지 등을 확인
 
 - 해당 과정들은 `TCP 헤더` 정보를 통해서 이루어짐
-  <div align="center" id="tcpHeader">
-  <img src="https://user-images.githubusercontent.com/48194000/185869540-d4e79289-36d8-4d7e-9bfa-ee1f5b33c881.jpeg">
+  <div align="left" id="tcpHeader">
+  <img src="https://user-images.githubusercontent.com/48194000/186008372-4e0192fa-e262-400f-8734-76d857e46bca.png" width=95%px>
   </div>
 
 - 출발지 port번호, 도착지 port번호부터 다양한 정보들이 헤더에 들어있음
@@ -71,13 +71,31 @@ Q4. `TCP` 와 `UDT` 의 차이가 뭔가요?<br>
 
 <br>
 
-- ### `3-way handshaking`
+- ### `3-way handshaking` 
+  - 세션 연결 시 진행 
   <div align="left">
-  <img src="https://user-images.githubusercontent.com/48194000/185873391-caaed08f-ac37-48d7-9f4a-a5016b15b71c.jpg"  height="400px">
+  <img src="https://user-images.githubusercontent.com/48194000/185873391-caaed08f-ac37-48d7-9f4a-a5016b15b71c.jpg" width=95%px>
   
-  <img src="https://user-images.githubusercontent.com/48194000/185874119-53c77a41-30d5-4afe-b03a-64311f45b333.png" height="340px">
+  <img src="https://user-images.githubusercontent.com/48194000/185874119-53c77a41-30d5-4afe-b03a-64311f45b333.png" width=95%px>
+  </div>
 
-  <img src="https://user-images.githubusercontent.com/48194000/185874886-3f6e5674-95f6-4bb2-a997-2ab1896e85e8.png" height="333px">
+- ### `4-way handshaking`
+  - 세션 종료 시 진행
+  - 단계
+    1. A(client) -> B(server) : "나 종료할래~" [`FIN 플래그` 전송]<br>
+       A 상태 : `FIN-WAIT`
+    2. B(server) : "종료한다고? 확인했어! 근데 기존 작업 마칠때까지 기다려야 돼"<br>[`FIN 플래그`를 수신, `ACK 플래그` 전송] <br>B 상태 : `CLOSE_WAIT` (자신의 통신이 끝날때까지 기다림)
+    3. B(server) -> A(client) : "이제 종료할 수 있어!" [`FIN 플래그` 전송]<br>
+       B 상태 : `LAST-ACK`
+    4. A(client) -> B(server) : "알겠어 나도 해제 준비됐어" [`ACK 플래그` 전송]<br>
+       A 상태 : `TIME-WAIT` 
+  - 문제 상황
+    : Server에서 FIN을 전송하기 전에 전송한 패킷이 Routing 지연이나 패킷 유실로 인한 재전송 등으로 인해 FIN패킷보다 늦게 도착했는데 Client에서 세션을 종료시킨 후라면? 이 패킷은 Drop되고 데이터는 유실된다
+    - 이러한 이유로, 4단계에서 A 상태가 `CLOSE`로 바로 바뀌지 않고 `TIME_WAIT`을 두고
+    <br>잉여 패킷을 기다리는 과정을 거치게 된다.
+
+  <div align="left">
+  <img src="https://user-images.githubusercontent.com/48194000/186009355-4bf9488a-c9e7-4418-9e9e-4e9da69a3087.png" width=95%px>
 
   </div>
 
@@ -103,7 +121,7 @@ Q4. `TCP` 와 `UDT` 의 차이가 뭔가요?<br>
 
 ## UDP 헤더
 <div align="left">
-  <img src=https://user-images.githubusercontent.com/48194000/185878481-abaf33b1-a152-4c7e-b214-2dd1ea92445f.png height="310px">
+  <img src=https://user-images.githubusercontent.com/48194000/185878481-abaf33b1-a152-4c7e-b214-2dd1ea92445f.png width=95%px>
 </div>
 
 - 이처럼 상당히 간단한 구조를 가지며, 연결 상태 체크를 진행하지 않기 때문에 <br>
@@ -115,7 +133,7 @@ Q4. `TCP` 와 `UDT` 의 차이가 뭔가요?<br>
 
 ## TCP 와 UDP 차이
 <div align="left">
-<img height="318px" alt="image" src="https://user-images.githubusercontent.com/48194000/185879750-c0c5bba2-2b08-4b37-b51d-b3a8638bd129.png">
+<img height="318px" alt="image" src="https://user-images.githubusercontent.com/48194000/185879750-c0c5bba2-2b08-4b37-b51d-b3a8638bd129.png" width=95%>
 </div>
 
 <br>
@@ -127,5 +145,5 @@ Q4. `TCP` 와 `UDT` 의 차이가 뭔가요?<br>
 
 
 <div align="left">
-<img height="375px" src="https://user-images.githubusercontent.com/48194000/185880269-ed5a03c8-6c17-4a87-b34b-04ecb144e074.png">
+<img height="375px" src="https://user-images.githubusercontent.com/48194000/185880269-ed5a03c8-6c17-4a87-b34b-04ecb144e074.png" width=95%px>
 </div>
