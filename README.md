@@ -47,28 +47,28 @@
 ## 📌 &nbsp;&nbsp;Context
 - **Operating System** 
   [<u>🔗</u>](https://github.com/nedleeds/Computer-Science-study/tree/main/OperatingSystem)
-  <br> 1. [CPU Scheduling](OperatingSystem/01_cpu_scheduling.md)
+  <br> 1. [CPU 스케쥴링](OperatingSystem/01_cpu_scheduling.md)
   <br> 2. [프로세스 스레드](OperatingSystem/02_프로세스_스레드.md)
   <br> 3. 교착 상태
 
 - **Design Pattern** 
   [<u>🔗</u>](https://github.com/nedleeds/Computer-Science-study/tree/main/DesignPattern)
   <br> 1. [Overview](DesignPattern/01_overview.md)
-  <br> 2. [Template Method Pattern](DesignPattern/02_template_method.md)
-  <br> 3. [Strategy Pattern](DesignPattern/03_strategy.md)
-  <br> 4. [Adapter Pattern](DesignPattern/04_adapter_pattern.md)
+  <br> 2. [템플릿 메서드 패턴](DesignPattern/02_template_method.md)
+  <br> 3. [전략 패턴](DesignPattern/03_strategy.md)
+  <br> 4. [어댑터 패턴](DesignPattern/04_adapter_pattern.md)
 
 
 - Network
   [<u>🔗</u>](https://github.com/nedleeds/Computer-Science-study/tree/main/Network)
-  <br> 1. [OSI 7 Layers](Network/01_osi_7_layer.md)
+  <br> 1. [OSI 7 계층](Network/01_osi_7_layer.md)
   <br> 2. [TCP/IP](Network/02_tcp_ip.md)
-  <br> 3. [URL Network](Network/03_URL_network.md)
-  <br> 4. [TCP/UDP](Network/04_TCP_UDP.md)
+  <br> 3. [URL 네트워크](Network/03_URL_network.md)
+  <br> 4. [TCP vs UDP](Network/04_TCP_UDP.md)
 
 - Database 
   [<u>🔗</u>](https://github.com/nedleeds/Computer-Science-study/tree/main/Database)
-  <br> 1. [Key](Database/01_key.md)
+  <br> 1. [키](Database/01_key.md)
   <br> 2. SQL JOIN
   <br> 3. [정규화](Database/03_정규화.md)
 
