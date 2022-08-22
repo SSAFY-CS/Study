@@ -89,11 +89,10 @@ Q4. `TCP` 와 `UDP` 의 차이가 뭔가요?<br>
        B 상태 : `LAST-ACK`
     4. A(client) -> B(server) : "알겠어 나도 해제 준비됐어" [`ACK 플래그` 전송]<br>
        A 상태 : `TIME-WAIT` 
-  - 문제 상황
-    : Server에서 FIN을 전송하기 전에 전송한 패킷이 Routing 지연이나 패킷 유실로 인한 재전송 등으로 인해 FIN패킷보다 늦게 도착했는데 Client에서 세션을 종료시킨 후라면? 이 패킷은 Drop되고 데이터는 유실된다
-    - 이러한 이유로, 4단계에서 A 상태가 `CLOSE`로 바로 바뀌지 않고 `TIME_WAIT`을 두고
-    <br>잉여 패킷을 기다리는 과정을 거치게 된다.
-
+        - 여기서 A가 바로 `CLOSE`가 아닌 `TIME-WAIT`을 하는 이유
+          : Server에서 FIN을 전송하기 전에 전송한 패킷이 Routing 지연이나 패킷 유실로 인한 재전송 등으로 인해 FIN패킷보다 늦게 도착했는데 Client에서 세션을 종료시킨 후라면? 이 패킷은 Drop되고 데이터는 유실되기 때문
+        - 이러한 이유로, 4단계에서 A 상태가 `CLOSE`로 바로 바뀌지 않고 `TIME_WAIT`을 두고
+    <br>잉여 패킷을 기다리는 과정을 거치게 된다.<br><br>
   <div align="left">
   <img src="https://user-images.githubusercontent.com/48194000/186009355-4bf9488a-c9e7-4418-9e9e-4e9da69a3087.png" width=95%px>
 
