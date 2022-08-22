@@ -70,7 +70,7 @@
   [<u>🔗</u>](https://github.com/nedleeds/Computer-Science-study/tree/main/Database)
   <br> 1. [Key](Database/01_key.md)
   <br> 2. SQL JOIN
-  <br> 3. [정규화](Database/정규화.md)
+  <br> 3. [정규화](Database/03_정규화.md)
 
 <br>
 
