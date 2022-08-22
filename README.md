@@ -48,7 +48,7 @@
 - **Operating System** 
   [<u>🔗</u>](https://github.com/nedleeds/Computer-Science-study/tree/main/OperatingSystem)
   <br> 1. [CPU 스케쥴링](OperatingSystem/01_cpu_scheduling.md)
-  <br> 2. [프로세스 스레드](OperatingSystem/02_프로세스_스레드.md)
+  <br> 2. [프로세스 스레드](OperatingSystem/02_process_thread.md)
   <br> 3. 교착 상태
 
 - **Design Pattern** 
@@ -70,7 +70,7 @@
   [<u>🔗</u>](https://github.com/nedleeds/Computer-Science-study/tree/main/Database)
   <br> 1. [키](Database/01_key.md)
   <br> 2. SQL JOIN
-  <br> 3. [정규화](Database/03_정규화.md)
+  <br> 3. [정규화](Database/03_normalization.md)
 
 <br>
 
