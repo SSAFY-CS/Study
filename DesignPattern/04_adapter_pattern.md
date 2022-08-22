@@ -7,8 +7,8 @@
 - 콘센트 전원에서 나오는 전기는 교류 200V, 노트북 충전기는 직류 120V
 - 교류 200V를 직류 120V로 바꾸어 주는 어댑터
 
-<img src="./images/adapter.jpg" height=55% width=55%></img>
-<img src="./images/adapter_pattern_diagram.png" height=55% width=55%></img>
+<img src="https://user-images.githubusercontent.com/48194000/185931019-e1649ab5-103f-4159-be33-e32821970eac.jpg" height=55% width=55%></img>
+<img src="https://user-images.githubusercontent.com/48194000/185931013-18ae2d23-1801-4585-8a6c-c5dbd67e286c.png" height=55% width=55%></img>
 
 #### 1. Target Interface
 - Adapter가 implements하는 인터페이스
