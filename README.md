@@ -134,3 +134,5 @@ DONGHYEONG : week2 DB key
 <a href='https://github.com/TsMiN94/tech-interview'> click </a><br>
 🔎&nbsp;&nbsp;CS 지식(멘토 게시판 추천) &nbsp;👉🏽 
 <a href='https://github.com/JaeYeopHan/Interview_Question_for_Beginner'> click </a><br>
+🔎&nbsp;&nbsp;면접 대비 및 신입 개발자 전공지식 &nbsp;👉🏽 
+<a href='https://gyoogle.dev/blog/guide/면접%20준비.html'>click</a><br>
